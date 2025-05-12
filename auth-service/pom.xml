@@ -64,7 +64,7 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<!-- Actuator (opcional, para health/info exposure) -->
+		<!-- Actuator -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -77,21 +77,21 @@
 			<version>${grpc.version}</version>
 		</dependency>
 
-		<!-- Guava (requerido por gRPC internamente) -->
+		<!-- Guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>32.1.2-jre</version>
 		</dependency>
 
-		<!-- Annotations (necessário para código gerado pelo gRPC) -->
+		<!-- Annotations -->
 		<dependency>
 			<groupId>javax.annotation</groupId>
 			<artifactId>javax.annotation-api</artifactId>
 			<version>1.3.2</version>
 		</dependency>
 
-		<!-- DevTools (auto-restart em dev) -->
+		<!-- DevTools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
