@@ -1,6 +1,7 @@
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/src/main/java/com/smartcity/App.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/auth_service/grpc/AuthServiceGrpc.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/traffic_service/grpc/TrafficServiceGrpc.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/weather_service/grpc/WeatherServiceGrpc.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/AuthProto.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/AuthResponse.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/AuthResponseOrBuilder.java
@@ -23,3 +24,16 @@
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/TrafficResponseOrBuilder.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/TrafficStatusUpdateRequest.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/TrafficStatusUpdateRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/AnomalyResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/AnomalyResponseOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherAnomalyRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherAnomalyRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherForecastRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherForecastRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherForecastResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherForecastResponseOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherProto.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/weather_service/grpc/WeatherResponseOrBuilder.java

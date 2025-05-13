@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.smartcity.weather_service.grpc";
+option java_outer_classname = "WeatherProto";
+
+package weather_service;
+
+// gRPC service to provide weather-related features
+service WeatherService {
+  // Returns current weather for a given region
+  rpc GetCurrentWeather (WeatherRequest) returns (WeatherResponse);
+
+  // Returns multi-day forecast for a region
+  rpc GetForecast (WeatherForecastRequest) returns (WeatherForecastResponse);
+
+  // Reports a weather anomaly (e.g. storm, heatwave)
+  rpc ReportWeatherAnomaly (WeatherAnomalyRequest) returns (AnomalyResponse);
+}
+
+// Request with region name and JWT token for auth
+message WeatherRequest {
+  string region = 1;
+  string token = 2;
+}
+
+// Response with current weather data
+message WeatherResponse {
+  string temperature = 1;
+  string humidity = 2;
+  string condition = 3; // e.g. "Sunny", "Rainy", "Storm"
+}
+
+// Forecast request
+message WeatherForecastRequest {
+  string region = 1;
+  string token = 2;
+}
+
+// Forecast response
+message WeatherForecastResponse {
+  repeated string dailyForecasts = 1; // e.g. ["Rain", "Cloudy", "Sunny"]
+}
+
+// Request to report an anomaly
+message WeatherAnomalyRequest {
+  string region = 1;
+  string description = 2;
+  string severity = 3; // e.g. "LOW", "MODERATE", "HIGH"
+  string token = 4;
+}
+
+// Acknowledgment response
+message AnomalyResponse {
+  string message = 1;
+}
