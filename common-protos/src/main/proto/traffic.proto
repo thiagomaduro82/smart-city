@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+// Define package and Java generation options
+option java_multiple_files = true;
+option java_package = "com.smartcity.traffic_service.grpc";
+option java_outer_classname = "TrafficProto";
+
+package traffic;
+
+// gRPC service for traffic management in the smart city
+service TrafficService {
+  // Registers a new traffic light in the system
+  rpc RegisterTrafficLight (TrafficLightRequest) returns (TrafficResponse);
+
+  // Updates the status of a traffic light (e.g. GREEN, YELLOW, RED)
+  rpc UpdateTrafficStatus (TrafficStatusUpdateRequest) returns (TrafficResponse);
+
+  // Retrieves traffic congestion level for a specific region
+  rpc GetTrafficByRegion (RegionTrafficRequest) returns (RegionTrafficResponse);
+}
+
+// Request to register a new traffic light
+message TrafficLightRequest {
+  string id = 1;                 // Unique identifier for the traffic light
+  string location = 2;           // Location description (e.g. "Main & 1st")
+  string token = 3;              // JWT for authentication
+}
+
+// Request to update the status of a traffic light
+message TrafficStatusUpdateRequest {
+  string id = 1;                 // Traffic light ID
+  string status = 2;            // New status: GREEN, YELLOW, RED
+  string token = 3;              // JWT for authentication
+}
+
+// Request to retrieve traffic data by region
+message RegionTrafficRequest {
+  string region = 1;             // Region name or code
+  string token = 2;              // JWT for authentication
+}
+
+// Standard response for register/update operations
+message TrafficResponse {
+  string message = 1;
+}
+
+// Response containing traffic level
+message RegionTrafficResponse {
+  string region = 1;
+  string congestionLevel = 2;    // e.g. LOW, MEDIUM, HIGH
+}
