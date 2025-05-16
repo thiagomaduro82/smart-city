@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.smartcity.energy_service.grpc";
+option java_outer_classname = "EnergyProto";
+
+package energy_service;
+
+// gRPC service to handle energy monitoring
+service EnergyService {
+  // Reports energy usage from a device or region
+  rpc ReportEnergyUsage (EnergyUsageRequest) returns (EnergyUsageResponse);
+
+  // Returns the current energy status of a region
+  rpc GetEnergyStatus (EnergyStatusRequest) returns (EnergyStatusResponse);
+
+  // Reports a power outage event
+  rpc ReportOutage (OutageReportRequest) returns (OutageResponse);
+}
+
+// Request to report energy usage
+message EnergyUsageRequest {
+  string region = 1;
+  double usageInKw = 2;
+  string token = 3;
+}
+
+// Response after reporting usage
+message EnergyUsageResponse {
+  string message = 1;
+}
+
+// Request to get current energy status
+message EnergyStatusRequest {
+  string region = 1;
+  string token = 2;
+}
+
+// Response with current energy status
+message EnergyStatusResponse {
+  string region = 1;
+  string status = 2; // NORMAL, OVERLOAD, OUTAGE
+}
+
+// Request to report a power outage
+message OutageReportRequest {
+  string region = 1;
+  string details = 2;
+  string token = 3;
+}
+
+// Response confirming outage report
+message OutageResponse {
+  string message = 1;
+}

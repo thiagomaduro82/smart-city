@@ -1,5 +1,6 @@
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/src/main/java/com/smartcity/App.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/auth_service/grpc/AuthServiceGrpc.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/energy_service/grpc/EnergyServiceGrpc.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/traffic_service/grpc/TrafficServiceGrpc.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/grpc-java/com/smartcity/weather_service/grpc/WeatherServiceGrpc.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/AuthProto.java
@@ -13,6 +14,19 @@
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/ValidateTokenRequestOrBuilder.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/ValidateTokenResponse.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/auth_service/grpc/ValidateTokenResponseOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyProto.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyStatusRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyStatusRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyStatusResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyStatusResponseOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyUsageRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyUsageRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyUsageResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/EnergyUsageResponseOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/OutageReportRequest.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/OutageReportRequestOrBuilder.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/OutageResponse.java
+/Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/energy_service/grpc/OutageResponseOrBuilder.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/RegionTrafficRequest.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/RegionTrafficRequestOrBuilder.java
 /Users/thiagoamaralmaduro/Documents/college/Distributed Systems/smart-city/common-protos/target/generated-sources/protobuf/java/com/smartcity/traffic_service/grpc/RegionTrafficResponse.java
